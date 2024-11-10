@@ -1,0 +1,36 @@
+import React from 'react';
+import { Mail } from 'lucide-react';
+import EmailBuilder from './components/EmailBuilder';
+
+function Email() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <header className="bg-white shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-2">
+              <Mail className="h-6 w-6 text-indigo-600" />
+              <h1 className="text-xl font-semibold text-gray-900">Email Builder</h1>
+            </div>
+            <div className="flex items-center space-x-4">
+              <button className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors">
+                Export HTML
+              </button>
+              <button className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
+                Send Test
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="flex-1">
+        <EmailBuilder />
+      </main>
+    </div>
+  );
+}
+
+export default Email;

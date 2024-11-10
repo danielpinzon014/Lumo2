@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}

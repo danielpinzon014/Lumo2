@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GrapesJS Custom Styles */
+.gjs-one-bg {
+  background-color: #ffffff;
+}
+
+.gjs-two-color {
+  color: #383838;
+}
+
+.gjs-three-bg {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #4f46e5;
+}
+
+.gjs-pn-btn.gjs-pn-active {
+  background-color: #4338ca;
+}
+
+.gjs-block:hover {
+  border-color: #4f46e5;
+}
+
+.gjs-category-title,
+.gjs-layer-title,
+.gjs-block-category .gjs-title,
+.gjs-sm-sector-title {
+  background-color: #f3f4f6;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.gjs-sm-sector .gjs-sm-field input,
+.gjs-sm-sector .gjs-sm-field select,
+.gjs-sm-sector .gjs-sm-field textarea {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+.gjs-mdl-dialog {
+  border-radius: 8px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.gjs-btn-prim {
+  background-color: #4f46e5;
+  border-radius: 4px;
+}
+
+.gjs-btn-prim:hover {
+  background-color: #4338ca;
+}
